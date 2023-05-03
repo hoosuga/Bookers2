@@ -2,7 +2,9 @@
 <table>
   <tbody>
     <tr>
-      <td><%= image_tag @book.get_image %></td>
+      <td>
+        <%= image_tag @book.user.get_profile_image(100,100) %>
+      </td>
       <td><%= @book.title %></td>
       <td><%= @book.body %></td>
       <td>edit</td>
