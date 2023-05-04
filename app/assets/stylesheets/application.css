@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-
+/*
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +35,8 @@ body {
   background-color: #343a40!important;
 }
 */
+
+/*
 
 header, main, div {
   display: block;
@@ -91,3 +93,4 @@ header, main, div {
 .mx-auto {
   margin-right: auto!important;
 }
+*/
