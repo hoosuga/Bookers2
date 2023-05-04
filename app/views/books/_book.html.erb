@@ -1,20 +1,20 @@
 <h2>User info</h2>
 <div>
-  <%# image_tag book.user.get_profile_image(100,100) %>
+  <% image_tag user.get_profile_image(100,100) %>
   <table>
     <tbody>
       <tr></tr>
       <tr>
         <th>name</th>
-        <th><%# user.name %></th>
+        <th><%= user.name %></th>
       </tr>
       <tr>
         <th>introduction</th>
-        <th><%# user.introduction %></th>
+        <th><%= user.introduction %></th>
       </tr>
     </tbody>
   </table>
-  <%# link_to "Edit", edit.user_path(user.id) %>
+  <% link_to "Edit", edit_user_path(user.id) %>
 
 <h2>New book</h2>
   <%= form_with model: book do |f| %>
