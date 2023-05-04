@@ -36,8 +36,21 @@ body {
 }
 */
 
-header {
+header, main, div {
   display: block;
+}
+
+.p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .navber {
@@ -60,25 +73,21 @@ header {
   margin-left: auto;
 }
 
-@media (min-width: 992px)
-.navbar-expand-lg >.container {
-  flex-flow: row nowrap;
-  justify-content: flex-start;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
-
-@media (min-width: 992px)
-.container {
-  max-width: 960px;
+.mt-5 {
+  margin-top: 3rem!important;
 }
 
-@media (min-width: 768px)
-.container {
-  max-width: 720px;
+.mx-auto {
+  margin-left: auto!important;
 }
 
-@media (min-width: 576px)
-.container {
-  max-width: 540px;
+.mx-auto {
+  margin-right: auto!important;
 }
-
