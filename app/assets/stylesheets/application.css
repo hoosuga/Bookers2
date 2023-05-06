@@ -29,3 +29,6 @@ main {
   margin-right: auto!important;
 }
 
+li {
+  list-style: none;
+}
