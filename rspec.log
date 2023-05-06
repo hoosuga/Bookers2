@@ -514,7 +514,7 @@ Failures:
 
   21) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
       [31mFailure/Error: expect(page).to have_link book.user.name, href: user_path(book.user)[0m
-      [31m  expected to find link "j4hp30fasy" with href "/users/2" but there were no matches[0m
+      [31m  expected to find link "e10gbjthxt" with href "/users/2" but there were no matches[0m
       [36m# ./spec/system/02_after_login_spec.rb:121:in `block (4 levels) in <main>'[0m
 
   22) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 編集リンクのテスト 編集画面に遷移する
@@ -543,17 +543,17 @@ Failures:
 
   24) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 「Editing Book」と表示される
       [31mFailure/Error: expect(page).to have_content 'Editing Book'[0m
-      [31m  expected to find text "Editing Book" in "Bookers\nHome Users Books Log out\nUser info\nname y3ckxqgli3 introduction 4v0sxat9044qvfvq0gdc\nEdit\nNew book\nTitle\nOpinion\nBooks\nTitle Opinion gdg0h fu82ilm63qzk7mr3ucgz p43iu c99uyn8cdqk6zo5qwpj7\nCopyRight Infratop.inc"[0m
+      [31m  expected to find text "Editing Book" in "Bookers\nHome Users Books Log out\nUser info\nname ubp3mzkkcl introduction q7aad58xuqt4sgnb2k64\nEdit\nNew book\nTitle\nOpinion\nBooks\nTitle Opinion 86axc f6semllo8eua6aow6gd6 nmj5z jsl316cli076xfm8viuf\nCopyRight Infratop.inc"[0m
       [36m# ./spec/system/02_after_login_spec.rb:217:in `block (4 levels) in <main>'[0m
 
   25) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 title編集フォームが表示される
       [31mFailure/Error: expect(page).to have_field 'book[title]', with: book.title[0m
-      [31m  expected to find visible field "book[title]" that is not disabled with value "w5kt4" but there were no matches. Also found "", which matched the selector but not all filters. Expected value to be "w5kt4" but was nil[0m
+      [31m  expected to find visible field "book[title]" that is not disabled with value "iza5g" but there were no matches. Also found "", which matched the selector but not all filters. Expected value to be "iza5g" but was nil[0m
       [36m# ./spec/system/02_after_login_spec.rb:220:in `block (4 levels) in <main>'[0m
 
   26) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 body編集フォームが表示される
       [31mFailure/Error: expect(page).to have_field 'book[body]', with: book.body[0m
-      [31m  expected to find visible field "book[body]" that is not disabled with value "zeme4wh097caddhg1xzn" but there were no matches. Also found "", which matched the selector but not all filters. Expected value to be "zeme4wh097caddhg1xzn" but was ""[0m
+      [31m  expected to find visible field "book[body]" that is not disabled with value "hkewl58ax3qpa1gbr3bn" but there were no matches. Also found "", which matched the selector but not all filters. Expected value to be "hkewl58ax3qpa1gbr3bn" but was ""[0m
       [36m# ./spec/system/02_after_login_spec.rb:223:in `block (4 levels) in <main>'[0m
 
   27) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Update Bookボタンが表示される
@@ -618,7 +618,7 @@ Failures:
 
   33) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログアウト成功時
       [31mFailure/Error: is_expected.to have_content 'successfully'[0m
-      [31m  expected to find text "successfully" in "Bookers\nHome Users Books Log out\nUser info\nname e2s3erlnoc introduction ln81o33a35f7ghp81ts2\nEdit\nNew book\nTitle\nOpinion\nUsers\nimage name 12ci8efwkn Show e2s3erlnoc Show\nCopyRight Infratop.inc"[0m
+      [31m  expected to find text "successfully" in "Bookers\nHome Users Books Log out\nUser info\nname cqmrupx20i introduction scksp64cjzxfto80f834\nEdit\nNew book\nTitle\nOpinion\nUsers\nimage name c9t8h45jmk Show cqmrupx20i Show\nCopyRight Infratop.inc"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:36:in `block (3 levels) in <main>'[0m
 
   34) [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの更新成功時
@@ -683,7 +683,7 @@ Failures:
 
   38) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
       [31mFailure/Error: expect(page).to have_link other_book.user.name, href: user_path(other_book.user)[0m
-      [31m  expected to find link "xz59s0tul3" with href "/users/1" but there were no matches[0m
+      [31m  expected to find link "i4oalwdxmm" with href "/users/1" but there were no matches[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:226:in `block (5 levels) in <main>'[0m
 
   39) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 投稿の編集リンクが表示されない
@@ -693,7 +693,7 @@ Failures:
 
   40) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 他人の名前と紹介文が表示される
       [31mFailure/Error: expect(page).to have_content other_user.name[0m
-      [31m  expected to find text "0iyzogdcby" in "Bookers\nHome Users Books Log out\nUser info\nname l077c3hdsg introduction h19gqkzi058pd4yxz2u1\nEdit\nNew book\nTitle\nOpinion\nBook detail\n9rmm7 2qvrc4x3k7y7xvvi4l8l\nCopyRight Infratop.inc"[0m
+      [31m  expected to find text "7dqxq5ucwm" in "Bookers\nHome Users Books Log out\nUser info\nname mi5mg9l14j introduction dupmu0h5ngehjrjzh447\nEdit\nNew book\nTitle\nOpinion\nBook detail\njnzfg 0r07d12hk7iby44gsfgk\nCopyRight Infratop.inc"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:244:in `block (5 levels) in <main>'[0m
 
   41) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 他人のユーザ編集画面へのリンクが存在する
@@ -703,7 +703,7 @@ Failures:
 
   42) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 自分の名前と紹介文は表示されない
       [31mFailure/Error: expect(page).not_to have_content user.name[0m
-      [31m  expected not to find text "ij6d372wnv" in "Bookers\nHome Users Books Log out\nUser info\nname ij6d372wnv introduction 4nxkhn7p4kdkyvbcl2q7\nEdit\nNew book\nTitle\nOpinion\nBook detail\noqpgb 9x1sibqkoqgc1bmprhri\nCopyRight Infratop.inc"[0m
+      [31m  expected not to find text "mo7ugidk4j" in "Bookers\nHome Users Books Log out\nUser info\nname mo7ugidk4j introduction fpll6vlab1jrr7at4xb5\nEdit\nNew book\nTitle\nOpinion\nBook detail\njlnz9 3rqw1z48ubkoe2ggmkc6\nCopyRight Infratop.inc"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:251:in `block (5 levels) in <main>'[0m
 
   43) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクは存在しない
@@ -727,7 +727,7 @@ Failures:
 
   46) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 他人の名前と紹介文が表示される
       [31mFailure/Error: expect(page).to have_content other_user.name[0m
-      [31m  expected to find text "x76io2jmv9" in "Bookers\nHome Users Books Log out\nUser info\nname f3zzte8ead introduction n35s6nci0yanzde1i1yv\nEdit\nNew book\nTitle\nOpinion\nBooks\nTitle Opinion 7bndl zidlqe2g0ep1wbl6rhmx\nCopyRight Infratop.inc"[0m
+      [31m  expected to find text "4zy7nb9ju5" in "Bookers\nHome Users Books Log out\nUser info\nname bvtnw9hfkv introduction ox48yo8avpndry0rslic\nEdit\nNew book\nTitle\nOpinion\nBooks\nTitle Opinion sixbq tzgdqwx8fag0qkjpg04j\nCopyRight Infratop.inc"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:293:in `block (5 levels) in <main>'[0m
 
   47) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 他人のユーザ編集画面へのリンクが存在する
@@ -737,7 +737,7 @@ Failures:
 
   48) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 自分の名前と紹介文は表示されない
       [31mFailure/Error: expect(page).not_to have_content user.name[0m
-      [31m  expected not to find text "kdxe8y3fu2" in "Bookers\nHome Users Books Log out\nUser info\nname kdxe8y3fu2 introduction wbtbvtoxalj4cvpipuic\nEdit\nNew book\nTitle\nOpinion\nBooks\nTitle Opinion 0ili2 xvfq4izos3c7jh582c36\nCopyRight Infratop.inc"[0m
+      [31m  expected not to find text "z4b3xp1793" in "Bookers\nHome Users Books Log out\nUser info\nname z4b3xp1793 introduction zz0rikjqahdig017zy4w\nEdit\nNew book\nTitle\nOpinion\nBooks\nTitle Opinion wrgin 5ik221hsfji3vobwid4q\nCopyRight Infratop.inc"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:300:in `block (5 levels) in <main>'[0m
 
   49) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクは存在しない
@@ -813,7 +813,7 @@ Failures:
       [31m  expected to find css ".fas.fa-user-cog" but there were no matches[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:443:in `block (4 levels) in <main>'[0m
 
-Finished in 52.43 seconds (files took 1.44 seconds to load)
+Finished in 57.22 seconds (files took 1.4 seconds to load)
 [31m199 examples, 58 failures[0m
 
 Failed examples:
