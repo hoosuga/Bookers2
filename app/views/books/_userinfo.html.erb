@@ -1,8 +1,8 @@
+<div class="col-md-3">
 <h2>User info</h2>
-<div>
-  <table>
+<%= image_tag user.get_profile_image(100,100) %>
+  <table class="table">
     <tbody>
-      <tr><%= image_tag user.get_profile_image(100,100) %></tr>
       <tr>
         <th>name</th>
         <th><%= user.name %></th>
@@ -13,6 +13,11 @@
       </tr>
     </tbody>
   </table>
-  <% if user == current_user %>
-    <%= link_to "Edit", edit_user_path(user.id) %>
-  <% end %>
+
+  <div class="row">
+    <% if user == current_user %>
+      <%= link_to edit_user_path(user.id), class:'btn btn-outline-secondary btn-block' do %>
+        <i class="fas fa-user-cog"></i>
+      <% end %>
+    <% end %>
+  </div>
